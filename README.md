@@ -12,7 +12,12 @@ PC: OMEN 17-ck2095cl, i9-13900HX, RTX-4080
 
 Detail: https://n7sd.com/ada1-2/openal-ada-cli-doppler-effect-1-linear/
 
-<img width="1068" height="501" alt="cli_doppler_1_audio_output" src="https://github.com/user-attachments/assets/0f6129ba-2775-4cd8-a96e-e672ed85b2ad" />
+<img width="1466" height="679" alt="cli_doppler_1_audio_output" src="https://github.com/user-attachments/assets/21a488c1-8652-45f4-b5c3-cef313da34d2" />
+[Cli_Doppler_1_Linear.wav](https://github.com/user-attachments/files/21963766/Cli_Doppler_1_Linear.wav)
+
+<img width="2013" height="692" alt="cli_doppler_1_train_audio_output" src="https://github.com/user-attachments/assets/30d24221-cb14-406f-9e3f-44f4e5e031de" />
+[train-testsound-44100-Mono-Original.wav](https://github.com/user-attachments/files/21963781/train-testsound-44100-Mono-Original.wav)
+[train-doppler-effect-stereo.wav](https://github.com/user-attachments/files/21963785/train-doppler-effect-stereo.wav)
 
 
 Text screen output
