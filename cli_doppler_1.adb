@@ -460,7 +460,7 @@ begin
 --  procedure Get_Buffers_Processed
 -------------------------------------------------------------------
 
-   delay 0.5;
+--   delay 0.5;
    TimeCnt := 0;
    EndFlag := 0;
 
