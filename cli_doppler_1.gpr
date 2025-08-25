@@ -1,0 +1,30 @@
+with "config/cli_doppler_1_config.gpr";
+
+project Cli_Doppler_1 is
+
+   for Source_Dirs use ("src", "config", "../../../../../usr/local/include/coreland/openal-ada");
+   for Object_Dir use "obj/" & Cli_Doppler_1_Config.Build_Profile;
+   for Create_Missing_Dirs use "True";
+   for Exec_Dir use "bin";
+   for Main use ("cli_doppler_1.adb");
+
+   package Compiler is
+      for Default_Switches ("ada") use Cli_Doppler_1_Config.Ada_Compiler_Switches;
+   end Compiler;
+
+   package Binder is
+      for Switches ("Ada") use ("-Es"); --  Symbolic traceback
+   end Binder;
+
+   package Install is
+      for Artifacts (".") use ("share");
+   end Install;
+
+   for Source_List_File use "sourcefiles.txt";
+
+   package Linker is
+      for Switches ("ada") use ("-lopenal", "-lalut");
+   end Linker;
+
+end Cli_Doppler_1;
+
