@@ -17,9 +17,11 @@ Detail: https://n7sd.com/ada1-2/openal-ada-cli-doppler-effect-1-linear/
 [Cli_Doppler_1_Linear.wav](https://github.com/user-attachments/files/21963766/Cli_Doppler_1_Linear.wav)
 
 
+
 <img width="2013" height="692" alt="cli_doppler_1_train_audio_output" src="https://github.com/user-attachments/assets/30d24221-cb14-406f-9e3f-44f4e5e031de" />
 
 [train-testsound-44100-Mono-Original.wav](https://github.com/user-attachments/files/21963781/train-testsound-44100-Mono-Original.wav)
+
 [train-doppler-effect-stereo.wav](https://github.com/user-attachments/files/21963785/train-doppler-effect-stereo.wav)
 
 
